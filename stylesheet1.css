@@ -1,0 +1,58 @@
+body {
+    background-image: url("../images/University.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+label {
+    font-size: 1.3em;
+    color: #3c3c3c;
+}
+
+button {
+    margin-top: 1.3em;
+    margin-left: 1.3em;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    color: #1b6d85;
+}
+
+.form-control {
+    font-size: 1.25em;
+    color: #1b6d85;
+    background-color: ghostwhite;
+}
+.group1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.group2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn, btn-primary {
+    background-color: #1b6d85;
+    padding: 0.5em;
+    width: 10em;
+    font-size: 1.3em;
+}
+
+.btn:hover {
+    background-color: #5bc0de;
+    color: black;
+}
+
+#semesterWise {
+    margin-top: 17em;
+}
+
+label.error {
+    color: red;
+    font-family: verdana;
+}

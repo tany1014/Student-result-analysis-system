@@ -1,0 +1,28 @@
+body {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 0.5)), url("../images/University.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: 20em;
+    margin-top: 10em;
+}
+
+table, th, td {
+    border: 1px solid whitesmoke;
+}
+
+th {
+    text-align: center;
+}
+
+th, td {
+    padding: 0.5em;
+    font-size: 2em;
+    color: white;
+}
+
+
